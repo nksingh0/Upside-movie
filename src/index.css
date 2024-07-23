@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #002f71;
+  font-family: "Flame Sans", "Helvetica Neue", Helvetica, Arial, Verdana,sans-serif;
+}
+#profileimg {
+  height: 35px;
+  border-radius: 50%;
+}
+nav {
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  color: #5fc9f3;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%; 
+  gap: 2vw;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li a:hover {
+  color: #5fc9f3;
+  transition: color 500ms ease; 
+}
+/* error  */
+#error{
+    width: 100%;
+    height: 500px;
+    /* background-color:#007bff; */
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+/* button  */
+.button-63 {
+  align-items: center;
+  background: #5B42F3;
+  border: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+/* carousel */
+#carousel-b{
+    height: 450px;
+}
+/* search container  */
+#search-container{
+    width: 100%;
+    height: 450px;
+    background-image: url('https://edgroom-blogs.s3.ap-south-1.amazonaws.com/202310071805064792540_38983_u23h.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#search{
+    width: 70%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 24px;
+    border: 1px;
+    outline: none;
+    padding-left: 10px;
+}
+#card{
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+
+  }
+#img-card{
+    width: 20rem;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card1{
+    width: 100%;
+    height: auto;
+    /* background-image: url('https://img.freepik.com/free-vector/blue-abstract-background_698452-2411.jpg'); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+#ydiv{
+    background-color: #fff;
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer */
+footer {
+  background-color: transparent;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0px 0px 2px black;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.footer-links li {
+  display: flex;
+  margin: 0 0.5rem;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
